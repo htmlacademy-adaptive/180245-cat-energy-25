@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Ульяна Ревякина](https://up.htmlacademy.ru/adaptive/25/user/180245).
-* Наставник: `Неизвестно`.
+* Наставник: `Анатолий Долгов` (https://htmlacademy.ru/profile/dolgov_anatoly).
 
 ---
 
