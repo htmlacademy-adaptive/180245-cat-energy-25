@@ -11,7 +11,7 @@
         <img class="page-header__logo-image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип Cat Energy">
         <img class="page-header__logo-name" src="img/logo-2.svg" width="101" height="18" alt="Логотип Cat Energy">
       </a>
-      <nav class="main-nav">
+      <nav class="page-header__nav main-nav">
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -36,7 +36,7 @@
 
       <form class="application-form" action="https://echo.htmlacademy.ru" method="post">
         <h2 class="application-form__description">Заполните анкету, и мы подберем программу питания для вашего кота</h2>
-          <div class="form__container cat-data">
+          <div class="application-form__container">
             <label class="application-form__label" for="field__cat-name">Имя:<sup>*</sup></label>
               <input class="application-form__field" type="text" name="textfield" id="field__cat-name" value="Барсик" required>
             <label class="application-form__label" for="field__cat-weight">Вес (кг):<sup>*</sup></label>
@@ -45,7 +45,7 @@
               <input class="application-form__field" type="text" name="numberfield" id="field__cat-age" value="7">
           </div>
 
-          <div class="form__container weight-goal">
+          <div class="application-form__container weight-goal">
             <input name="goal" id="weight-loss" type="radio" value="weight-loss" checked>
               <label class="weight-goal__label" for="weight-loss">Похудение</label>
             <input name="goal" id="weight-gain" type="radio" value="weight-gain">
@@ -54,8 +54,8 @@
               <label class="weight-goal__label" for="need-help">Не знаю (нужен ваш совет)</label>
           </div>
 
-          <div class="form__container owner-data">
-            <h3 class="form__container__title">Контактные данные (владельца кота)</h3>
+          <div class="application-form__container">
+            <h3 class="application-form__title">Контактные данные (владельца кота)</h3>
               <div class="application-form__group">
                 <label class="application-form__label" for="field__owner-email">E-mail:<sup>*</sup></label>
                 <input class="application-form__field" type="text" name="field__owner-email" id="field__owner-email" value="kuklachev@gmail.com" required>
@@ -68,8 +68,8 @@
               </div>
           </div>
 
-          <div class="form__container cat-habits">
-            <h3 class="form__container__title">Комментарий</h3>
+          <div class="application-form__container cat-habits">
+            <h3 class="application-form__title">Комментарий</h3>
             <textarea class="cat-habits__comment" rows="10" cols="50" name="cat-habits">Расскажите обо всех повАдках кота</textarea>
           </div>
 
@@ -84,7 +84,7 @@
             <input type="checkbox" name="checkbox" id="checkbox-vitamins">
               <label class="application-form__label" for="checkbox-vitamins">Витамины</label>
           </div>
-        <p><input class="form-submit button" type="submit" value="Отправить заявку"></p>
+        <p><input class="application-form__submit button" type="submit" value="Отправить заявку"></p>
         <p class="application-form__legend">
           <small>
             * — Обязательные поля
@@ -96,16 +96,16 @@
       <section class="contacts">
         <div class="contacts__header">
           <h2 class="visually-hidden">Контакты</h2>
-          <h3 class="">Приглашаем<br>
+          <h3 class="contacts__title">Приглашаем<br>
           к сотрудничеству<br>
           дилеров!</h3>
           <p class="contacts__address">ул. Большая<br>
           Конюшенная, д. 19/8<br>
           Санкт-Петербург</p>
         </div>
-        <div class="contacts__map">
+        <div class="contacts__map map">
           <img class="map__location" src="img/Rectangle.svg" width="320" height="362" alt="Карта">
-          <img class="location__pin" src="map-pin.png-1.png" width="57" height="53" alt="Указатель расположения Cat Energy">
+          <img class="map__pin" src="map-pin.png-1.png" width="57" height="53" alt="Указатель расположения Cat Energy">
         </div>
       </section>
     </main>
@@ -115,7 +115,7 @@
         <img class="page-footer__logo-name" src="img/footer-logo-2.svg" width="128" height="24" alt="Логотип Cat Energy">
       </div>
 
-      <section class="page-footer__social">
+      <section class="page-footer__social social">
         <h2 class="visually-hidden">Cat Energy в социальных сетях</h2>
         <ul class="social__list">
           <li class="social__item">
@@ -139,10 +139,10 @@
         </ul>
       </section>
 
-      <section class="page-footer__copyright">
+      <section class="page-footer__copyright copyright">
         <h2 class="visually-hidden">Разработано HTML Academy</h2>
-        <a class="htmlacademy-link" href="https://htmlacademy.ru">HTML Academy</a>
-        <img class="htmlacademy__logo" src="img/Лого_html-1.svg" width="27" height="34" alt="Логотип разработчика сайта - HTML Academy">
+        <a class="copyright__link" href="https://htmlacademy.ru">HTML Academy</a>
+        <img class="copyright__logo" src="img/Лого_html-1.svg" width="27" height="34" alt="Логотип разработчика сайта - HTML Academy">
       </section>
     </footer>
   </body>
